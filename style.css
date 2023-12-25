@@ -1,0 +1,89 @@
+html {
+    font-family: Roboto;
+}
+.body-main{
+  width: 100%;
+  height: 100%;
+  background-color: #FFFFFF;  
+  display: flex;
+  justify-content: center;
+}
+
+.sidebar{
+    width: 150px;
+    height: 650px;
+    background-color: #191718;   
+}
+.sidebar a {
+    padding: 8px 8px 8px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #818181;
+    display: block;
+    border-bottom: 1px solid #5C5C5C;
+}
+
+.sidebar a:hover {
+    color: #f1f1f1;
+    background-color: #5C5C5C;
+}
+
+.content{
+    width: 100%;
+    height: 100%;
+    background-color: #FFFFFF;  
+    top: 938px;
+    left: 150px;
+}
+
+.group1{
+    display: flex;
+    justify-content: center;
+}
+.group1 img{
+    width: 310px;
+    height: 122px;
+}
+.group2{
+    width: 1510px;
+    height: 210px;
+    top: 1110px;
+    left: 279px;
+    background-color: #EFEFEF;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.group2 h1{
+    display: flex;
+    justify-content: center;
+}
+
+.group2 p{
+    width: 972px;
+    height: 95px;
+    margin: auto;
+    text-align: center;
+}
+
+.group3{
+    width: 1510px;
+    height: 210px;
+    top: 1110px;
+    left: 279px;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.group3 .box{
+    width: 470px;
+    height: 252px;
+    
+}
+.group3 .image{
+    display: flex;
+    justify-content: center;
+    
+}
